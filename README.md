@@ -6,7 +6,10 @@ server:
 config-server:
 配置中心
 
-computer-service,computer-service1:
+api-gateway:
+服务网关
+
+computer-service,computer-service1,data-service:
 服务提供者
 
 ribbon-consumer:
